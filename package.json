@@ -1,0 +1,29 @@
+{
+  "name": "server07",
+  "version": "1.0.5",
+  "description": "Nexa Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "html5-qrcode": "^2.3.8",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^2.6.7",
+    "portfinder": "^1.0.32",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "rimraf": "^5.0.1"
+  }
+}
